@@ -1,6 +1,6 @@
 {
   "name": "@easychessanimations/polyglot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package polyglot.",
   "main": "./lib/polyglot.js",
   "scripts": {
@@ -23,6 +23,9 @@
     "type": "git",
     "url": "https://github.com/easychessanimations/polyglot.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "int64-buffer": "^1.0.0",
+    "js-string-compression": "^1.0.1"
+  },
   "devDependencies": {}
 }
